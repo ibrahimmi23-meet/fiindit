@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8DFB5"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/tellaviv"
+        >
+
+        <ImageButton
+            android:id="@+id/btnPhoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/imgbuttoncircle"
+            android:src="@drawable/camera" />
+
+        />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:hint="Name"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textSize="16sp"
+        android:textColor="#808080"
+        android:layout_gravity="center"
+        android:layout_below="@id/usernameEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/instrumentEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Instrument"
+        android:textSize="16sp"
+        android:textColor="#808080"
+        android:layout_gravity="center"
+        android:layout_below="@id/ageEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/genreEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Genre"
+        android:textSize="16sp"
+        android:textColor="#808080"
+        android:layout_gravity="center"
+        android:layout_below="@id/instrumentEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/salaryEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Salary"
+        android:textSize="16sp"
+        android:textColor="#808080"
+        android:layout_gravity="center"
+        android:layout_below="@id/genreEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/editProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/gradian_btn2"
+        android:text="Request Musician"
+        android:layout_below="@id/salaryEditText"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
